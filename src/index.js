@@ -28,7 +28,7 @@ function buildHtml(objs) {
     html += `<tbody>`;
     html += `<tr>`;
     html += `<td>${title}</td>`;
-    html += `<td>${rating}</td>`;
+    html += `<td>${rating} <i class="fas fa-fire"></i></td>`;
     html += `<td>${id}</td>`;
     html += `<td>${genre}</td>`;
     html += `<td><button id='edit-function' type="button" class= "edit-button" data-id="${id}">Edit</button></td>`;
